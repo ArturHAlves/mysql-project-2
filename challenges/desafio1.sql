@@ -94,15 +94,15 @@ VALUES
 (1,'ALIEN SUPERSTAR', '116'),
 (2,"'Don't Stop Me Now'", '203'),
 (2,'Under Pressure', '152'),
-(6,'"Como Nossos Pais"', '105'),
-(6,'O Medo de Amar é o Medo de Ser Livre', '207'),
-(3,'Samba em Paris', '267'),
-(4,"The Bard's Song", '244'),
-(5,'Feeling Good', '100');
+(3,'"Como Nossos Pais"', '105'),
+(3,'O Medo de Amar é o Medo de Ser Livre', '207'),
+(4,'Samba em Paris', '267'),
+(5,"The Bard's Song", '244'),
+(6,'Feeling Good', '100');
 
 INSERT INTO SpotifyClone.usuario (nome, idade, plano_id, data_assinatura) VALUES
 	('Barbara Liskov', 82, 1, '2019-10-20'),
-	('Robert Cecil Martin', 58, '1', '2017-01-06'),
+	('Robert Cecil Martin', 58, 1, '2017-01-06'),
 	('Ada Lovelace', 37, 2, '2017-12-30'),
 	('Martin Fowler', 46, 2, '2017-01-17'),
 	('Sandi Metz', 58, 2, '2018-04-29'),
@@ -134,7 +134,7 @@ INSERT INTO SpotifyClone.historico_reproducao (user_id, musica_id, data_reproduc
 	(1, 10, '2020-03-06 11:22:33'),
 	(2, 10, '2022-08-05 08:05:17'),
 	(2, 7, '2020-01-02 07:40:33'),
-	(3, 7, '2020-11-13 16:55:13'),
+	(3, 10, '2020-11-13 16:55:13'),
 	(3, 2, '2020-12-05 18:38:30'),
 	(4, 8, '2021-08-15 17:10:10'),
 	(5, 8, '2022-01-09 01:44:33'),
@@ -144,4 +144,4 @@ INSERT INTO SpotifyClone.historico_reproducao (user_id, musica_id, data_reproduc
 	(7, 4, '2011-12-15 22:30:49'),
 	(8, 4, '2012-03-17 14:56:41'),
 	(9, 9, '2022-02-24 21:14:22'),
-	(1, 3, '2015-12-13 08:30:22');
+	(10, 3, '2015-12-13 08:30:22');

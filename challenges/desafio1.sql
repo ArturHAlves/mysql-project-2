@@ -77,14 +77,14 @@ INSERT INTO SpotifyClone.artista (nome) VALUES
 	('Nina Simone');
 
 INSERT INTO SpotifyClone.album (nome, ano_lancamento, artista_id) VALUES
-	('Renaissance', '2022', '1'),
-	('Jazz', '1978', '2'),
-	('Hot Space', '1982', '2'),
-	('Falso Brilhante', '1998', '3'),
-	('Vento de Maio', '2001', '3'),
-	('QVVJFA?', '2003', '4'),
-	('Somewhere Far Beyond', '2007', '5'),
-	('I Put A Spell On You', '2012', '6');
+	('Renaissance', '2022', 1),
+	('Jazz', '1978', 2),
+	('Hot Space', '1982', 2),
+	('Falso Brilhante', '1998', 3),
+	('Vento de Maio', '2001', 3),
+	('QVVJFA?', '2003', 4),
+	('Somewhere Far Beyond', '2007', 5),
+	('I Put A Spell On You', '2012', 6);
 
 
 INSERT INTO SpotifyClone.musica (album_id, nome, duracao_segundos)
@@ -93,12 +93,12 @@ VALUES
 (1,"'VIRGO'S GROOVE'", '369'),
 (1,'ALIEN SUPERSTAR', '116'),
 (2,"'Don't Stop Me Now'", '203'),
-(2,'Under Pressure', '152'),
-(3,'"Como Nossos Pais"', '105'),
-(3,'O Medo de Amar é o Medo de Ser Livre', '207'),
-(4,'Samba em Paris', '267'),
-(5,"The Bard's Song", '244'),
-(6,'Feeling Good', '100');
+(3,'Under Pressure', '152'),
+(4,'"Como Nossos Pais"', '105'),
+(5,'O Medo de Amar é o Medo de Ser Livre', '207'),
+(6,'Samba em Paris', '267'),
+(7,"The Bard's Song", '244'),
+(8,'Feeling Good', '100');
 
 INSERT INTO SpotifyClone.usuario (nome, idade, plano_id, data_assinatura) VALUES
 	('Barbara Liskov', 82, 1, '2019-10-20'),
